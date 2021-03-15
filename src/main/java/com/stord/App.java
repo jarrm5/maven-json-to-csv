@@ -62,8 +62,8 @@ public class App {
 		      
 		        //Write the 2D representation in csv format
 		        //Unfortunately the data is out of order because of the way JSONObject is implemented in Java
-		        flatMe.write2csv("csv/result.csv");
-		        System.out.println("output written to csv/result.csv");
+		        flatMe.write2csv("result.csv");
+		        System.out.println("output written to result.csv");
 			}
 			else {
 				throw new RuntimeException("Response code returned " + responseCode);
